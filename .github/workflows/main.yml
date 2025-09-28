@@ -2,8 +2,12 @@ name: Python calculator
 
 on:
   push:
-    branches: ['**']      
-  pull_request: {}      
+    branches:
+      - main
+      - development
+  pull_request:
+    branches:
+      - main   
  
 jobs:
   test:
