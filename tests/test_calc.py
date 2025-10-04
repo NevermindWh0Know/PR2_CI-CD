@@ -1,7 +1,5 @@
-import sys, os
+from calculator import add, sub, mul, div
 import pytest
-
-import calc
 
 def test_add():
     assert calc.add(2, 3) == 5
